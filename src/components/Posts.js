@@ -20,8 +20,7 @@ function Posts() {
 
       <div className='posts'>
        {
-        posts.length >0 ? (posts.map(
-          (post)=>
+        posts.length > 0 ? (posts.map(post=>
           <div className='post'>
           <h2>{post.title}</h2>
           <p>{post.description}</p>
